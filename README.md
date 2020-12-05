@@ -1,4 +1,4 @@
-#My Advent of Code stats
+# My Advent of Code stats
 
 Day 1: ⭐⭐
 
