@@ -9,8 +9,8 @@ f = open('input.txt', 'r')
 
 list = []
 for line in f:
-  stripped_line = line.strip()
-  line_list = stripped_line.split()
+  stripped_line = line.strip() # "  1997 " -> "1997"
+  line_list = stripped_line.split() # <"1997" -> ["1", "9", "9", "7"]
   list.append(line_list)
 
 #print(list)
